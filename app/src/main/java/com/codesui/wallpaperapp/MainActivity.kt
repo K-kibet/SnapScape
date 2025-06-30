@@ -29,6 +29,7 @@ class MainActivity : ComponentActivity() {
             installSplashScreen()
             MobileAds.initialize(this@MainActivity) {}
             // OneSignal Initialization
+            OneSignal.initWithContext(this@MainActivity)
             OneSignal.initWithContext(this@MainActivity, this@MainActivity.getString(R.string.one_signal_id))
         }
         appOpenAdManager = AppOpenAdManager()
