@@ -6,11 +6,11 @@ plugins {
 
 android {
     namespace = "com.codesui.wallpaperapp"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.codesui.wallpaperapp"
-        minSdk = 24
+        applicationId = "com.palmapps.wallpaperapp"
+        minSdk = 26
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -76,5 +76,6 @@ dependencies {
     implementation("androidx.navigation:navigation-compose:2.8.3")
     implementation("com.google.accompanist:accompanist-pager-indicators:0.35.1-alpha")
     implementation("com.google.android.gms:play-services-ads:23.5.0")
-    implementation("com.google.code.gson:gson:2.10.1")
+    implementation("com.google.code.gson:gson:2.13.1")
+    implementation ("com.onesignal:OneSignal:5.1.34")
 }

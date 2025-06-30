@@ -1,4 +1,4 @@
-pluginManagement {
+    pluginManagement {
     repositories {
         google()
         mavenCentral()
@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "WallpaperApp"
+rootProject.name = "SnapScape"
 include(":app")
  

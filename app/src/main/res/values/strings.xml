@@ -2,11 +2,13 @@
     <string name="app_name">SnapScape</string>
     <string name="slogan">Beautiful Photos For Your Screen</string>
     <!--Ad Unit -->
-    <string name="App_Id">ca-app-pub-3940256099942544~3347511713</string>
-    <string name="Interstitial_Ad_Unit">ca-app-pub-3940256099942544/1033173712</string>
-    <string name="Banner_Ad_Unit">ca-app-pub-3940256099942544/9214589741</string>
-    <string name="App_Open_Manager">ca-app-pub-3940256099942544/9257395921</string>
-    <string name="Rewarded_Ad_Id">ca-app-pub-3940256099942544/5354046379</string>
+    <string name="App_Id">ca-app-pub-9576945242972545~4247051248</string>
+    <string name="Interstitial_Ad_Unit">ca-app-pub-9576945242972545/5067096980</string>
+    <string name="Banner_Ad_Unit">ca-app-pub-9576945242972545/6204918831</string>
+    <string name="App_Open_Manager">ca-app-pub-9576945242972545/3754015314</string>
+    <string name="Rewarded_Ad_Id">ca-app-pub-9576945242972545/2241623098</string>
+    <!--One Signal-->
+    <string name="one_signal_id">d1c10758–0dec–45b6-995e-0b9454998f87</string>
     //urls
-    <string name="more_apps_url">https://play.google.com/store/apps/dev?id=6534315187626675600</string>
+    <string name="more_apps_url">https://play.google.com/store/apps/dev?id=Drew90</string>
 </resources>

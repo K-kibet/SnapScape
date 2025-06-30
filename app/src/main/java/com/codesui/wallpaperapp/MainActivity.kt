@@ -17,7 +17,9 @@ import com.google.android.gms.ads.LoadAdError
 import com.google.android.gms.ads.MobileAds
 import com.google.android.gms.ads.interstitial.InterstitialAd
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
+import com.onesignal.OneSignal
 import kotlinx.coroutines.runBlocking
+
 
 class MainActivity : ComponentActivity() {
     private lateinit var appOpenAdManager: AppOpenAdManager
@@ -26,6 +28,8 @@ class MainActivity : ComponentActivity() {
         runBlocking {
             installSplashScreen()
             MobileAds.initialize(this@MainActivity) {}
+            // OneSignal Initialization
+            OneSignal.initWithContext(this@MainActivity, this@MainActivity.getString(R.string.one_signal_id))
         }
         appOpenAdManager = AppOpenAdManager()
         appOpenAdManager.loadAd(this@MainActivity)
